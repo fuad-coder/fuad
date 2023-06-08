@@ -23,6 +23,13 @@ header{
 .nav-bar:last-child{
     border-right: none;
 }
+.hero{
+    height: 550px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://assets-global.website-files.com/61af164800e38c4f53c60b4e/61dee4b2dc58f411f5a08d55_RevoU%20(2).jpg");
+    object-fit: contain;
+}
 img{
     height:4em;
 }
