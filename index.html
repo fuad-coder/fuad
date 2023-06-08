@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Website Abal-Abal</title>
 </head>
 <body>
@@ -41,17 +41,17 @@
         </div>
         <div id="message-section" class="message-us">
             <h2>Message Us</h2>
-            <form>
+            <form id="myform">
                 <table>
                     <tr>
                         <td>Nama</td>
                         <td>:</td>
-                        <td><input type="text" name="nama"></td>
+                        <td><input id="input-nama" type="text" name="nama"></td>
                     </tr>
                     <tr>
                         <td>Tanggal Lahir</td>
                         <td>:</td>
-                        <td><input type="date" name="tanggal-lahir"></td>
+                        <td><input id ="tanggal-lahir" type="date" name="tanggal-lahir"></td>
                     </tr>
                     <tr>
                         <td>Jenis Kelamin</td>
@@ -67,14 +67,18 @@
                         <td>Pesan</td>
                         <td>:</td>
                         <td>
-                            <textarea name="pesan" placeholder="kritik dan saran"></textarea>
+                            <textarea name="pesan" id="pesan" placeholder="kritik dan saran"></textarea>
                         </td>
                     </tr>
                 </table>
+                <button type="submit">kirim</button>
             </form>
+            <div id="result"></div>
         </div>
         <div></div>
         <div></div>
     <footer>Created By Fuad Hasan</footer>
+    
+    <script src="js/script.js"></script>
 </body>
 </html>
